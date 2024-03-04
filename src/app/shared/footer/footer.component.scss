@@ -1,0 +1,57 @@
+.footer {
+    background-color: black;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .about, .links {
+    margin-bottom: 20px;
+  }
+  
+  .about h2, .links h2 {
+    margin-bottom: 10px;
+  }
+  
+  .contact span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact span i {
+    margin-right: 5px;
+  }
+  
+  .links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .links ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .links ul li a:hover {
+    text-decoration: underline;
+  }
+  
