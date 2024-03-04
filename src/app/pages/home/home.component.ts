@@ -12,8 +12,7 @@
     }
     
       ngOnInit(): void {
-        this.servicoBlog.listar()
-          .subscribe(
+        this.servicoBlog.listar().subscribe(
             resposta => {
               console.log(resposta)
             }

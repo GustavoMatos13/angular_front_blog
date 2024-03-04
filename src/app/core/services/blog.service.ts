@@ -15,13 +15,8 @@ export class BlogService {
 
   constructor(private http: HttpClient) { }
 
-  listar(): Observable<any> {
-    return this.http.get<any>(`${this.apiUrl}/blog`)
-      .pipe(
-        catchError(error => {
-          // Handle error
-          return throwError(error);
-        })
-      );
-  }
+  
+    listar() {
+      return this.http.get<any>('http://localhost:8080/blog');
+    }
 }
